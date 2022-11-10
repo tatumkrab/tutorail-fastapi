@@ -6,7 +6,8 @@ from . import models
 from .database import engine
 from .routers import post, user, auth, vote
 from .config import settings
-from tkinter import *
+import tkinter
+
 # print(settings.database_username)
 
 # models.Base.metadata.create_all(bind=engine)
